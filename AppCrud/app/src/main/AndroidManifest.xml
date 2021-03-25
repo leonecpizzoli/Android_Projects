@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.br.lm.appcrud"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="24"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_laramara"
+        android:label="Laramara CRUD"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controladores.ControladorTelaPrincipal"
+            android:label="Laramara" >
+        <intent-filter>
+         <action
+             android:name="android.intent.action.MAIN" />
+
+         <category
+             android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controladores.ControladorTelaCadastro"
+            android:label="Controlador Tela Cadastro">
+        </activity>
+        <activity
+            android:name=".controladores.ControladorTelaConsulta"
+            android:label="Controlador Tela Consulta">
+        </activity>
+        <activity
+            android:name=".controladores.ControladorTelaExclusao"
+            android:label="Tela de Exclusão">
+        </activity>
+        <activity
+            android:name=".controladores.ControladorTelaAlterar"
+            android:label="Controlador Tela Alterar">
+        </activity>
+  </application>
+</manifest>

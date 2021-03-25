@@ -1,0 +1,61 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:context="com.br.lm.appcrud.controladores.ControladorTelaPrincipal">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:orientation="vertical"
+         android:weightSum="1">
+
+         <ImageView
+             android:id="@+id/imageView8"
+             android:layout_width="wrap_content"
+             android:layout_height="276dp"
+             android:src="@drawable/laramara"
+             android:layout_weight="0.82" />
+
+         <Button
+             android:id="@+id/btnTelaCadastrar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Cadastrar" />
+
+         <Button
+             android:id="@+id/btnTelaConsultar"
+             android:layout_width="match_parent"
+             android:layout_height="43dp"
+             android:text="Consultar"
+             android:layout_weight="0.09" />
+
+         <Button
+             android:id="@+id/btnTelaAlterar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Alterar" />
+
+         <Button
+             android:id="@+id/btnTelaExcluir"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Excluir" />
+
+         <Button
+             android:id="@+id/btnSair"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:backgroundTint="@color/colorPrimaryDark"
+             android:drawableTop="@android:color/background_light"
+             android:text="Sair" />
+
+     </LinearLayout>
+ </RelativeLayout>
+
